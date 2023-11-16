@@ -1,7 +1,8 @@
 import React from "react";
 
 export default function CardItem({obj, onRemoveToCart}) {
-    const {title, imageUrl, price } = obj
+  
+    const { title, imageUrl, price } = obj
   return (
     <div className="carItem d-flex align-center ">
       <div
